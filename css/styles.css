@@ -1,21 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
 body {
-    background: url(https://bit.ly/33Iv7Wi);
-    background-position: cover;
-    background-repeat: no-repeat;
+  background: url(https://bit.ly/33Iv7Wi);
+  background-position: cover;
+  background-repeat: no-repeat;
+  color: white;
 }
-nav{
-    list-style-type: none;
-    text-decoration: none;
-    display: inline-block;
+#me {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+#me h1 {
+  margin-left: 5%;
+}
+#quote>p{
     text-align: center;
-    column-count: 3;
-    column-gap: 5px;
-    column-width: 10%;
-    font-size: 20px;
-    margin-top: -40px;
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0,auto;
 }
-#me{
-    color: deeppink;
-    float: left;
-    margin-left: 200px;
+figcaption{
+    margin-top: 10px;
+    font-size: 20px;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
 }
