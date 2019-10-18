@@ -3,11 +3,31 @@
   padding: 0;
   box-sizing: 0;
 }
+
 body {
   background: url(https://bit.ly/33Iv7Wi);
   background-position: cover;
   background-repeat: no-repeat;
   color: white;
+}
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+ 
+}
+nav ul li{
+  padding: 50px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+nav a:hover{
+  background-color: deeppink;
 }
 #me {
   display: flex;
@@ -19,18 +39,32 @@ body {
 #me h1 {
   margin-left: 5%;
 }
-#quote>p{
-    text-align: center;
-    font-size: 50px;
-    font-family: "Times New Roman", Times, serif;
-    margin: 0,auto;
+#rose{
+  margin-left: 50px;
+  padding-top: 50px;
 }
-figcaption{
-    margin-top: 10px;
-    font-size: 20px;
+#quote > p {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0, auto;
 }
-footer{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 200px;
+figcaption {
+  margin-top: 10px;
+  font-size: 20px;
 }
+footer {
+  
+  
+  margin-top: 200px;
+}
+footer a {
+  color: white;
+}
+.icons {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+
+}
+
