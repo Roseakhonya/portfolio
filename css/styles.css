@@ -34,10 +34,11 @@ nav a:hover{
   align-items: center;
   margin: 0 auto;
   width: 50%;
+  margin-left: 50px;
 }
 
 #me h1 {
-  margin-left: 5%;
+  margin-left: 10px;
 }
 #rose{
   margin-left: 50px;
