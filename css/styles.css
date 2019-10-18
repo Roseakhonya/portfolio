@@ -44,6 +44,11 @@ nav a:hover{
   padding-top: 50px;
   margin: 0 auto;
   padding-left: 100px;
+  border-radius: 10px;
+}
+
+#rose1 {
+  border-radius: 100px;
 }
 #quote > p {
   text-align: center;
