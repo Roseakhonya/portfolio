@@ -1,3 +1,21 @@
-body{
-    background-color:palevioletred;
+body {
+    background: url(https://bit.ly/33Iv7Wi);
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    column-count: 3;
+    column-gap: 5px;
+    column-width: 10%;
+    font-size: 20px;
+    margin-top: -40px;
+}
+#me{
+    color: deeppink;
+    float: left;
+    margin-left: 200px;
 }
