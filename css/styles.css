@@ -70,8 +70,16 @@ footer a {
   display: flex;
   justify-content: center;
 }
-#link>p>a{
+.btn{
   font-size: 50px;
   color: deeppink;
   text-decoration: none;
- 
+}
+#project{
+  margin-left: 10px;
+  display: float;
+  float: left;
+}
+ figure{
+   margin-left: 100px;
+ }
