@@ -59,16 +59,12 @@ figcaption {
   margin-top: 10px;
   font-size: 20px;
 }
-footer {
-  margin-top: 200px;
-}
 footer a {
   color: white;
+  align-items: center;
 }
-.icons {
-  width: 400px;
-  display: flex;
-  justify-content: center;
+footer{
+  margin: 0 auto;
 }
 .btn{
   font-size: 50px;
