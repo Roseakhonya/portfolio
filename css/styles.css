@@ -60,38 +60,58 @@ figcaption {
   margin-top: 10px;
   font-size: 20px;
 }
-.btn{
+.btn {
   font-size: 50px;
   color: deeppink;
   text-decoration: none;
 }
-#project{
+#project {
   margin-left: 10px;
   display: float;
   float: left;
+  color: white;
 }
- figure{
-   margin-left: 100px;
-   margin-right: 50px;
- }
- #img{
-   display: flex;
- }
- #img>p{
-   margin:0 auto;
-   font-size: 20px;
-   margin-top: 50px;
-   margin-right: 20px;
- }
- #languages{
-   margin-left: 100px;
-   margin-top: 50px;
- }
-#languages>h2{
+
+#project a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  border: 2px solid #fff;
+  display: block;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+#project a:hover {
+  background: #fff;
+  color: #000;
+  transition: all 0.5s ease;
+}
+figure {
+  margin-left: 100px;
+  margin-right: 50px;
+}
+#img {
+  display: flex;
+}
+#img > p {
+  margin: 0 auto;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+#languages {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+#languages > h2 {
   font-size: 30px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-#languages>ul>li{
+#languages > ul > li {
   font-size: 20px;
   margin-top: 10px;
 }
@@ -102,18 +122,21 @@ table {
   margin-top: 40px;
   margin-left: 200px;
 }
-td,th {
-    font-size: 20px;
-    padding: 10px;
+td,
+th {
+  font-size: 20px;
+  padding: 10px;
 }
 td {
-    color: white;
-    padding: 10px;
+  color: white;
+  padding: 10px;
 }
-table, th, td {
+table,
+th,
+td {
   border: 1px solid deeppink;
 }
-#about{
+#about {
   font-size: 20px;
 }
 #skills {
@@ -124,30 +147,55 @@ table, th, td {
   display: flex;
   justify-content: space-evenly;
 }
-#skills>p {
+#skills > p {
   font-size: 25px;
   color: crimson;
 }
-#skills>ol>li{
+#skills > ol > li {
   padding: 10px;
   font-size: 20px;
   font-weight: bold;
   color: white;
   margin-left: 10px;
 }
-footer a {
+#contacts a {
   color: white;
 }
-#ooter1 ul li {
+#contacts ul li {
   padding: 10px;
 }
 
-#footer1 ul li a {
+#contacts ul li a {
   text-decoration: none;
   color: white;
   font-size: 20px;
   margin: 0 auto;
 }
-footer a:hover {
+#contacts a:hover {
   background-color: deeppink;
+}
+input[type="text"] {
+  border: 2px solid maroon;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+input[type="number"] {
+  border: 2px solid maroon;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.form {
+  width: 500px;
+  margin: 0 auto;
+}
+#reach {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
